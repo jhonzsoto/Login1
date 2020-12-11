@@ -93,7 +93,7 @@ const authListener =()=>{
 
 useEffect(()=>{
   authListener();
-});
+},[]);
 
 
 
